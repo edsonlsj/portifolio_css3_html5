@@ -1,0 +1,54 @@
+body{
+	background: #d2d2c1 url(./imgs/fundo.png);
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+	width: 900px
+}
+#principal img{
+	width: 100%
+}
+#menu {
+	background-color: #c5c5b2;
+	padding: 18px;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	/*border: 1px solid red;*/
+	padding: 25px;
+}
+#conteudo{
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+#rodape{
+	padding: 10px;
+	text-align: center;
+}
+
+h1{
+	color: #828271;
+	font-size: 1.5em;
+}
+
+.circle {
+	background-color: #aaa;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+	left: 40%;
+
+}
+
+.circle img {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
